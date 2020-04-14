@@ -1,0 +1,50 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: "ROBOTO" , sans-serif;
+}
+hr {
+	margin: 20px auto;
+}
+header {
+	background-color: #000000;
+	color: #ffffff;
+}
+header h1 {
+	text-align: center;
+	padding: 20px;
+}
+nav h2 {
+	text-align: center;
+	padding: 20px;
+}
+nav h3 {
+	padding: 20px;
+}
+nav p {
+	text-align: justify;
+	padding: 20px;
+}
+nav button {
+	display: block;
+	width:80%;
+	margin: 10px auto;
+	padding: 8px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 0px #000000;
+}
+nav button:hover {
+	background-color: #c1c1c1;
+}
+nav address {
+	padding: 5px;
+}
+footer {
+	text-align: center;
+	margin: 30px auto;
+	padding:30px;
+	background-color: #000000;
+	color: #f1f1f1;
+}
