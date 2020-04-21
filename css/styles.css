@@ -21,6 +21,13 @@ main article {
   display: block;
   margin: auto;
 }
+main article input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px auto;
+  border: none;
+  background-color: #f1f1f1;
+}
 main article h3 {
   padding: 2vh;
 }

@@ -1,11 +1,11 @@
 function converterParaDecimal(){
-	var decimal = prompt("Digite o número decimal...");
-	decimal = parseInt(decimal);
+	var decimal = document.getElementById("decimal").value
+	decimal = parseInt(decimal)
 	binario = decimal.toString(2);
-	alert("Valor em binário: " + binario);
+	document.getElementById("resultadoBinario").innerHTML = binario
 }
 function converterParaBinario(){
-	var binario = prompt("Digite o número binário..");
+	var binario = document.getElementById("binario").value
 	var decimal = parseInt(binario, 2);
-	alert("Valor em decimal: " + decimal);
+	document.getElementById("resultadoDecimal").innerHTML = decimal
 }

@@ -11,14 +11,21 @@
 	<body>
 		<header>
 			<h1>CONVERSOR BINÁRIO / DECIMAL</h1>
-			<h2>Digite apenas números inteiros</h2>
+			<h2>Digite apenas números inteiros, ou seja, sem pontos ou vírgulas</h2>
 		</header>
 		<main>
 			<article>
-				<button onclick="converterParaDecimal()">CLIQUE PARA UMA NOVA CONVERSÃO DE DECIMAL PARA BINÁRIO</button>
-				<button onclick="converterParaBinario()">CLIQUE PARA UMA NOVA CONVERSÃO DE BINÁRIO PARA DECIMAL</button>
+				<h3>DECIMAL PARA BINÁRIO</h3>
+				<input oninput="converterParaDecimal()" type="number" id="decimal" placeholder="Digite apenas números decimais nesse campo. exemplo: 123, 999">
+				<p id="resultadoBinario"></p>
+				<hr>
+				<h3>BINÁRIO PARA DECIMAL</h3>
+				<input oninput="converterParaBinario()" type="number" id="binario" placeholder="Digite apenas 0 e 1 nesse campo. exemplo: 0101 111 100">
+				<p id="resultadoDecimal"></p>
 			</article>
 			<article>
+				<h3>Atenção</h3>
+				<p>Se valores de tipos diferentes dos tipos que foram especificados logo acima forem digitados os resultos serão errados ou então NaN, então para obter o resultado desejado/correto digite de acordo com o que foi dito no inicio</p>
 				<h3>Sistema binário</h3>
 				<p>O sistema binário ou de base 2 é um sistema de numeração posicional em que todas as quantidades se representam com base em dois números, ou seja, zero e um.</p>
 			</article>
