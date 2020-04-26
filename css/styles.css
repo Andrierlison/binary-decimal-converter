@@ -22,7 +22,9 @@ main article {
   margin: auto;
 }
 main article input {
-  width: 100%;
+  width: 90%;
+  max-width: 600px;
+  display: block;
   padding: 10px;
   margin: 5px auto;
   border: none;
