@@ -1,6 +1,5 @@
-<div align="center">
 <h1>
-    <a href="https://andrierlison.github.io/binary-decimal-converter">🔗Decimal Binary Converter</a>
+    <a href="https://andrierlison.github.io/binary-decimal-converter">Decimal Binary Converter</a>
 </h1>
 
 <p>
@@ -9,14 +8,8 @@
     <a href="#author">Author</a>
 </p>
 
-<h2>Completed project</h2>
-
-<p>
-    <img alt="Binary decimal converter banner" title="Binary decimal converter banner" src="images/banner.png" width="600"/>
-</p>
-</div>
-
 <h3>Description</h3>
+
 <p>With just a few clicks you can convert any integer decimal number to binary and binary to decimal as well.<br/>
 I looked for inspiration in the [app-ideas] repository (https://github.com/florinpop17/app-ideas) There I found this challenge right away and became interested in it so I developed it quickly.<br />
 Very simple project with little javascript that fulfills its objective, with a very simplistic interface facilitates the use for those who are accessing it.</p>
